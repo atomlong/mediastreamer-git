@@ -15,7 +15,7 @@ license=('GPL')
 conflicts=('mediastreamer')
 provides=("mediastreamer=$pkgver")
 depends=('bctoolbox>=4.3' 'bcg729-git' 'bcmatroska2-git' 'bzrtp>=4.3' 'ffmpeg' 'glew' 'libjpeg-turbo' 'libsrtp' 'libxv' 'mbedtls' 'ortp>=4.4.0' 'zxing-cpp')
-makedepends=('cmake' 'doxygen' 'git')
+makedepends=('cmake' 'doxygen' 'git' 'python')
 source=("git+https://github.com/BelledonneCommunications/mediastreamer2.git")
 sha256sums=('SKIP')
 
